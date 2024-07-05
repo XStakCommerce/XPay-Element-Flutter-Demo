@@ -64,10 +64,10 @@ class _MyHomePageState extends State<MyHomePage> {
   late bool isPaymentInProgress = false;
   final XPayElementController controller = XPayElementController(
       publicKey:
-          "your_account_public_api_key",
+          "xpay_pk_test_c9b2a59eb0318fd48801ae73454ddfafdbdc40d45298179289b966bad45041e1",
       hmacKey:
-          "your_account_hmac_api_key",
-      accountId: "your_account_id");
+          "7db1a28123492dd3151ae96b8b2c2f38d2758a3fc4b68986d11d04e3636b7fe5",
+      accountId: "601a8783af17185c");
   XPayElementCustomStyle style = XPayElementCustomStyle.configureCustomStyle({
     "inputConfiguration": {
       "cardNumber": {
