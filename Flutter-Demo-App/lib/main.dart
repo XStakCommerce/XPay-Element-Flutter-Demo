@@ -87,11 +87,11 @@ class _MyHomePageState extends State<MyHomePage> {
       "borderWidth": 1
     },
     "inputLabelStyle": {
-      "fontSize": 16,
+      "textSize": 16,
       "fontWeight": 400,
       "textColor": 0xff000000
     },
-    "onFucusInputStyle": {
+    "onFocusInputStyle": {
       "textColor": 0xff000000,
       "textSize": 16,
       "fontWeight": 400,
